@@ -94,3 +94,8 @@ help:
 # -----------------------
 clean:
 	rm -rf $(BUILD_DIR)
+
+# Lab 2 individual build targets
+lab2_1: bin/lab2_1
+lab2_2: bin/lab2_2
+lab2_3: bin/lab2_3
